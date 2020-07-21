@@ -9,7 +9,7 @@ public class MyStack {
 
     public MyStack(int size) {
         this.size=size;
-        array=new int[size];
+        array=new int[this.size];
     }
 
     public void push(int element) {
